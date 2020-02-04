@@ -9,7 +9,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
 
-    private var imageViewRollDice: ImageView? = null
+    private lateinit var imageViewRollDice: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,6 +36,6 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.empty_dice
         }
 
-        imageViewRollDice?.setImageResource(drawableResource)
+        imageViewRollDice.setImageResource(drawableResource)
     }
 }
