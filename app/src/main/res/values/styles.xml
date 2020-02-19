@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="name_style_font">
+        <item name="android:layout_marginTop">@dimen/layout_margin</item>
+        <item name="android:contentDescription">@string/name_of_user</item>
+        <item name="android:paddingTop">@dimen/dp_20</item>
+        <item name="android:textSize">@dimen/dp_20</item>
+    </style>
+
 </resources>

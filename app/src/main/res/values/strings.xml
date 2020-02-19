@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">DiceRoller</string>
     <string name="roll_dice">RollDice</string>
+    <string name="name_of_user">name_of_user</string>
+    <string name="player_profile">Player Profile</string>
+    <string name="player_profile_description">A resume profile (professional profile or career profile) is a short summary of your skills, qualifications, and strengths related to the job opening. It includes your job title, years of experience, and shows your best few measurable achievements that fit the job. A resume profile is a tweet-long cover lett</string>
 </resources>
