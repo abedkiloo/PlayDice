@@ -8,7 +8,7 @@ import com.example.diceroller.databinding.ActivityProfileBinding
 class Profile : AppCompatActivity() {
 
 
-    private val name: UserProfile = UserProfile(name = "ABed Kiloo")
+    private val name: UserProfile = UserProfile(name = "ABed loo")
 
     private lateinit var binding: ActivityProfileBinding
 
